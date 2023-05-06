@@ -28,7 +28,6 @@ class Produto_Destaque extends Produto{
         }
 }
 
-const produtos = new Produto_Destaque("Motinha Hello Kitty", "26/02/2023", "1234", "2500",  )
 console.log(produtos.mostrar_dados())
 
 const div = document.getElementById('Produto_Destaque');
