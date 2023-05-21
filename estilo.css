@@ -1,23 +1,29 @@
-
 body {
-  background: #CCC;
+  background: #f2d0d1;
 }
 
-.produtos-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.produto-card{
+  background-color: #FFFF;
+  
+  display: inline-block;
+  width: 290px;
+  height: 350px;
+  padding: 5px;
+  margin: 20px;
+  overflow: hidden;
 }
 
-.produto-card {
-  width: 48%;
-  margin-bottom: 20px;
-  background: #FFF;
-  padding: 10px;
+.rosa{
+  color: #A90623;
+  font-family: Atma, cursive;
 }
 
-.rosa {
-  color: pink;
+.produtos-p{
+  color: #A90623;
+  font-family: Atma, cursive;
 }
 
-
+.produtos-lista{
+  color: #A90623;
+  font-family: Atma, cursive;
+}
