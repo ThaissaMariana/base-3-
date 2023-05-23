@@ -14,6 +14,7 @@ class Produto {
         <div class="rosa">${this.data_do_cadastro}</div>
         <div class="rosa">${this.descricao_do_produto}</div>
         <div class="rosa">${this.preco}</div>
+        </div>
         `;
         //return this.nome +  this.data_do_cadastro + this.descricao_do_produto + this.preco;
     }
